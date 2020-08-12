@@ -4,6 +4,7 @@ if word.match(/^[aeiouy]\w+/)
 else
   false
 end
+end
 
 
 
