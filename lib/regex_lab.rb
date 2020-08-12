@@ -1,9 +1,8 @@
 def starts_with_a_vowel?(word)
-if word.match(/\w+[aeiouy]/)
+word.match(/\w+[aeiouy]/)
 return true
-elsif word.match(/\w+[bcdfghjklmnpqrstvwxz]/)
+word.match(/\w+[bcdfghjklmnpqrstvwxz]/)
   return false
-end
 end
 
 
